@@ -86,6 +86,14 @@ header{
   background-size: cover;
 }
 
+@media only screen and (max-width: 300px) {
+	.propiedad .img{
+		height: 150px;
+		width: 170px;
+	  margin: auto;
+	  background-size: cover;
+	}
+}
 
 @media only screen and (max-width: 776px) {
 	.selects{
@@ -126,8 +134,12 @@ header{
  .d-flex input{
 	width: 130px;
  }
+ .propiedad{ 
+    
+position: relative;
+left: 12px;
 }
-
+}
 .contenedor-main {
 	margin-bottom: 20px;
 }
@@ -137,9 +149,21 @@ main {
 	color: #424242;
 	padding: 20px 0;
 }
+.btn2{
+
+	text-decoration: none;
+	text-align: center;
+	background: #1e1e1e;
+	width: 200px;
+	padding: 10px;
+	border-radius: 10px;
+	display: none;
+}
 
 footer {
+	display: block;
 	padding: 20px 0;
 	background: #1e1e1e;
 	color: #fff;
+	
 }
