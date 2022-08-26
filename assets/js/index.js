@@ -239,6 +239,7 @@ var  validad_campos= function name() {
            console.log("condicion1 numero2")
            }
         else   if ( venta.m>=130 && venta.m<170 &(desde>=1 & hasta<=500 & Cuartos==2 & hasta<170& hasta>=130&desde>=1 &tipo_de_vivienda===venta.name )){
+          btn2.style.display="block"
           resultado.style.display="none"
             total.style.display="block"
             i++
@@ -247,6 +248,7 @@ var  validad_campos= function name() {
              console.log("condicion2 numero2")
              }
           else    if ( venta.m>=170 & venta.m<200 &(desde>130 & hasta<=500 && Cuartos==2 & hasta>=170&desde>=1 &tipo_de_vivienda===venta.name)){
+            btn2.style.display="block"
             resultado.style.display="none"
               total.style.display="block"
               i++
@@ -256,6 +258,7 @@ var  validad_campos= function name() {
                }
                 // validaciones para cuartos==3//
           else     if ( Cuartos==3 & venta.m>=200 &venta.m<500 & hasta>=200 &tipo_de_vivienda===venta.name){
+            btn2.style.display="block"
             resultado.style.display="none"
                   total.style.display="block"
                   i++
@@ -265,6 +268,7 @@ var  validad_campos= function name() {
                    }
                    // validaciones para cuartos==5//
              else   if ( Cuartos==5 & venta.m>200 &venta.m<=500 & hasta>=500 &tipo_de_vivienda===venta.name){
+              btn2.style.display="block"
               resultado.style.display="none"
                   total.style.display="block"
                   i++
