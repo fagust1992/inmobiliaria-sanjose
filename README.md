@@ -17,7 +17,7 @@ La  Inmobiliaria-San-Jose Posee  el siguiente filtro de busqueda para que sea ex
 
 -Mansion poseen 5 cuartos y tiene superficie util de (500 m²)
 
-  -los tipos de vivienda solo llegan hasta los 500m² si digitas un cantidad 
+  -los tipos de viviendas van desde 6m² y  solo llegan hasta los 500m² si digitas un cantidad 
    mayor te arrojara un error
 
 -el usuario debe tipear la busqueda de acuerdo a las caracteristica que corresponde a cada tipo de viviendo en el siguiente ejemplo  se deja una busqueda exitosa.
